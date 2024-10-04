@@ -1,0 +1,15 @@
+<div class="users-list">
+	<mat-selection-list *ngIf="status === 'succeeded'" [multiple]="false" class="users-list">
+		@for(user of users; track user) {
+			<mat-list-option (click)="onSelectUser(user)">
+				<app-user-avatar matListItemIcon [name]="user.Name"></app-user-avatar>
+				<div matListItemTitle>{{user.Name}}</div>
+				<div matListItemLine>{{user.Email}}</div>
+			</mat-list-option>
+			<mat-divider [inset]="true" />
+		}
+	</mat-selection-list>
+	<app-error-state *ngIf="status === 'rejected'" />
+	<app-empty-state *ngIf="status === 'empty'" />
+	<app-users-list-skeleton *ngIf="status ==='pending'" />
+</div>

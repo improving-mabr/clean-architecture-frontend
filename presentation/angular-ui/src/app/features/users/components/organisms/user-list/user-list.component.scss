@@ -1,0 +1,28 @@
+
+.users-list {
+
+	.mat-mdc-list-item {
+		margin: 10px 0;
+	  
+		&-icon {
+			margin-left: 0;
+			margin-right: 32px;
+		}
+
+		&-line {
+		  opacity: 0.5;
+		}
+	  
+		&-title {
+		  font-weight: bolder;
+		}
+	}
+
+	.mat-divider {
+		opacity: 0.25;
+	  
+		&-inset{
+		  margin-left: 50px !important;
+		}
+	}
+}

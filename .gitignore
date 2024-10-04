@@ -1,0 +1,14 @@
+
+# Compiled output
+core/dist
+presentation/angular-ui/dist
+presentation/react-ui/build
+presentation/vue-ui/dist
+shared/dist
+
+# Node
+core/node_modules
+presentation/angular-ui/node_modules
+presentation/react-ui/node_modules
+presentation/vue-ui/node_modules
+shared/node_modules

@@ -1,0 +1,16 @@
+
+.home {
+	&__container {
+		margin: 0 13px;
+		// display: flex;
+		// flex-direction: row;
+	}
+
+	&__users {
+		margin-right: 5px;
+	}
+
+	&__posts {
+		flex-grow: 2;
+	}
+}

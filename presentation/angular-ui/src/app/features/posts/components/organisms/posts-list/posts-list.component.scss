@@ -1,0 +1,21 @@
+.posts-list {
+	margin-top: 13px;
+
+	.mat-mdc-card {
+		background-color: #261e20 !important;
+		margin-top: 13px;
+
+		&-actions {
+			margin-right: 13px;
+		}
+
+		&-title {
+			text-transform: capitalize;
+			font-weight: 600;
+		}
+	}
+
+	.mat-icon {
+		margin: 0 13px;
+	}
+}

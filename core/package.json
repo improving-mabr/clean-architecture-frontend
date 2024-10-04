@@ -1,0 +1,19 @@
+{
+  "name": "@tech-talk/core",
+  "version": "1.0.0",
+  "description": "Tech Talk Core package.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build"
+  },
+  "author": "Marco Bucio <marco.bucio@improving.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
